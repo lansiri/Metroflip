@@ -95,6 +95,15 @@ App(
 )
 
 App(
+    appid="hsl_plugin",
+    apptype=FlipperAppType.PLUGIN,
+    entry_point="hsl_plugin_ep",
+    requires=["metroflip"],
+    sources=["scenes/plugins/hsl.c"],
+    fal_embedded=True,
+)
+
+App(
     appid="smartrider_plugin",
     apptype=FlipperAppType.PLUGIN,
     entry_point="smartrider_plugin_ep",

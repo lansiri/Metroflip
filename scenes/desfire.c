@@ -48,7 +48,7 @@ TransitCardInfo cards[89] = {
     {0x064D44, "DEL DMTC", "DMRCL", true},
     {0x074D44, "DEL DMTC", "DMRCL", true},
     {0x1101F4, "itso", "ITSO (UK)", false},
-    {0x1120EF, "HEL HSL", "HRT", true},
+    {0x1120EF, "hsl", "HRT", false},
     {0x1201F4, "itso", "ITSO (UK)", false},
     {0x1301F4, "itso", "ITSO (UK)", false},
     {0x1401F4, "itso", "ITSO (UK)", false},
